@@ -19,10 +19,11 @@ var opcionMaquina = patito(0,4);
 opcionUsuario = prompt("¿Qué eliges?\nPiedra: 0\nPapel: 1\nTijera: 2\nLagarto: 3\nSpock: 4", 0);
 
 alert("Elegiste " + opciones[opcionUsuario]);
-alert("Javascript eligió " + opciones[opcionMaquina]);
+
 
 if(opcionUsuario == piedra)
 {
+	alert("Javascript eligió " + opciones[opcionMaquina]);
     if(opcionMaquina == piedra)
     {
         alert("Empate!");
@@ -46,6 +47,7 @@ if(opcionUsuario == piedra)
 }
 else if(opcionUsuario == papel)
 {
+	alert("Javascript eligió " + opciones[opcionMaquina]);
     if(opcionMaquina == piedra)
     {
         alert("Ganaste!");
@@ -69,6 +71,7 @@ else if(opcionUsuario == papel)
 }
 else if(opcionUsuario == tijera)
 {
+	alert("Javascript eligió " + opciones[opcionMaquina]);
     if(opcionMaquina == piedra)
     {
         alert("Perdiste :(");
@@ -92,6 +95,7 @@ else if(opcionUsuario == tijera)
 }
 else if(opcionUsuario == lagarto)
 {
+	alert("Javascript eligió " + opciones[opcionMaquina]);
     if(opcionMaquina == piedra)
     {
         alert("Perdiste!");
@@ -115,6 +119,7 @@ else if(opcionUsuario == lagarto)
 }
 else if(opcionUsuario == spock)
 {
+	alert("Javascript eligió " + opciones[opcionMaquina]);
     if(opcionMaquina == piedra)
     {
         alert("Ganaste!");
