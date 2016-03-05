@@ -23,7 +23,7 @@ alert("Elegiste " + opciones[opcionUsuario]);
 
 if(opcionUsuario == piedra)
 {
-	alert("Javascript eligió " + opciones[opcionMaquina]);
+	alert("Sheldon eligió " + opciones[opcionMaquina]);
     if(opcionMaquina == piedra)
     {
         alert("Empate!");
@@ -47,7 +47,7 @@ if(opcionUsuario == piedra)
 }
 else if(opcionUsuario == papel)
 {
-	alert("Javascript eligió " + opciones[opcionMaquina]);
+	alert("Sheldon eligió " + opciones[opcionMaquina]);
     if(opcionMaquina == piedra)
     {
         alert("Ganaste!");
@@ -71,7 +71,7 @@ else if(opcionUsuario == papel)
 }
 else if(opcionUsuario == tijera)
 {
-	alert("Javascript eligió " + opciones[opcionMaquina]);
+	alert("Sheldon eligió " + opciones[opcionMaquina]);
     if(opcionMaquina == piedra)
     {
         alert("Perdiste :(");
@@ -95,7 +95,7 @@ else if(opcionUsuario == tijera)
 }
 else if(opcionUsuario == lagarto)
 {
-	alert("Javascript eligió " + opciones[opcionMaquina]);
+	alert("Sheldon eligió " + opciones[opcionMaquina]);
     if(opcionMaquina == piedra)
     {
         alert("Perdiste!");
@@ -119,7 +119,7 @@ else if(opcionUsuario == lagarto)
 }
 else if(opcionUsuario == spock)
 {
-	alert("Javascript eligió " + opciones[opcionMaquina]);
+	alert("Sheldon eligió " + opciones[opcionMaquina]);
     if(opcionMaquina == piedra)
     {
         alert("Ganaste!");
