@@ -144,5 +144,6 @@ else if(opcionUsuario == spock)
 else
 {
     alert("Elige 0, 1, 2, 3 o 4 pelon");
+    location.reload(true);
 }
 
